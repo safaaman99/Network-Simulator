@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class Main {
 
     public static void main(String[] args) {
-        runSimulation("simulation1.txt");
+        runSimulation(args[0]);
     }
 
     public static void runSimulation(String filename) {
